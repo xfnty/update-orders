@@ -1,2 +1,10 @@
-# update-orders
-A utility that updates your orders listed on Warframe Market
+Usage:
+  pip install requests-ratelimiter dataclass-wizard
+  git clone https://github.com/xfnty/update-orders.git
+  cd update-orders
+  python update-orders.py
+
+When running script for the first time it will ask you for your Warframe Market credentials
+that will be later stored in "cached_credentials.json" file.
+
+After that the program will update every listed order in your account every 5 seconds.
